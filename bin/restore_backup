@@ -38,15 +38,9 @@ sudo cp -p "$mac_os_backup_root/etc/newsyslog.d/homebrew.conf" "/etc/newsyslog.d
 
 # Dotfiles
 (
-  cd "$HOME/Dropbox/Development/OSS/dotfiles"
-  bin/run l
-)
-
-# Sublime Text
-(
-  cd "$HOME/Dropbox/Development/OSS/sublime_text_setup"
+  cd "$HOME/Dropbox/Applicazioni/"
   bin/run l
 )
 
 # Duti
-duti "$HOME/.config/duti/configuration.duti"
+# duti "$HOME/.config/duti/configuration.duti"

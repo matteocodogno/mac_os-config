@@ -17,14 +17,14 @@ defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 printf "%s\n" "System - Disable 'Are you sure you want to open this application?' dialog."
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
-printf "%s\n" "System - Increase window resize speed for Cocoa applications."
-defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+# printf "%s\n" "System - Increase window resize speed for Cocoa applications."
+# defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
 printf "%s\n" "System - Disable window resume system-wide."
 defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 
-printf "%s\n" "System - Disable auto-correct."
-defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+# printf "%s\n" "System - Disable auto-correct."
+# defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 printf "%s\n" "System - Disable smart quotes (not useful when writing code)."
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
@@ -60,23 +60,23 @@ defaults write NSGlobalDomain KeyRepeat -int 0
 printf "%s\n" "Keyboard - Disable press-and-hold for keys in favor of key repeat."
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-printf "%s\n" "Trackpad - Map bottom right corner to right-click."
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
+# printf "%s\n" "Trackpad - Map bottom right corner to right-click."
+# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
+# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
+# defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
+# defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
-printf "%s\n" "Trackpad - Enable tap to click for current user and the login screen."
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+# printf "%s\n" "Trackpad - Enable tap to click for current user and the login screen."
+# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+# defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+# defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
-printf "%s\n" "Trackpad - Use CONTROL (^) with scroll to zoom."
-defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
-defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
+# printf "%s\n" "Trackpad - Use CONTROL (^) with scroll to zoom."
+# defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
+# defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
 
-printf "%s\n" "Trackpad - Follow keyboard focus while zoomed in."
-defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
+# printf "%s\n" "Trackpad - Follow keyboard focus while zoomed in."
+# defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
 printf "%s\n" "Bluetooth - Increase sound quality for headphones/headsets."
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
@@ -85,6 +85,9 @@ printf "%s\n" "Menu Bar - Show only Bluetooth and Airport."
 for domain in $HOME/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
   defaults write "${domain}" dontAutoLoad -array "/System/Library/CoreServices/Menu Extras/TimeMachine.menu"
 done
+
+printf "%s\n" "Menu Bar - Set menubar digital clock format."
+defaults write com.apple.menuextra.clock "DateFormat" -string "\"EEE d MMM HH:mm:ss\"" 
 
 defaults write com.apple.systemuiserver menuExtras -array \
   "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
@@ -102,8 +105,17 @@ defaults write com.apple.Dock autohide-delay -float 0
 printf "%s\n" "Dock - Don’t show Dashboard as a Space."
 defaults write com.apple.dock "dashboard-in-overlay" -bool true
 
+printf "%s\n" "Dock - Set icon size to ."
+defaults write com.apple.dock tilesize -int 36
+
 printf "%s\n" "iCloud - Save to disk by default."
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+
+printf "%s\n" "Finder - Automatically hide and show the menu bar"
+defaults write NSGlobalDomain _HIHideMenuBar -bool true
+
+printf "%s\n" "Finder - Automatically hide and show the menu bar"
+defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 
 printf "%s\n" "Finder - Show the $HOME/Library folder."
 chflags nohidden $HOME/Library
@@ -213,3 +225,34 @@ defaults write com.apple.appstore WebKitDeveloperExtras -bool true
 
 printf "%s\n" "App Store - Enable Debug Menu in the Mac App Store."
 defaults write com.apple.appstore ShowDebugMenu -bool true
+
+printf "%s\n" "Power settings"
+
+sudo pmset -a lessbright 0
+
+# To stop the display from half dimming before full display 'sleep'
+# http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/pmset.1.html
+sudo pmset -a halfdim 0
+
+# Sleep options
+sudo pmset -a displaysleep 5
+sudo pmset -a sleep 0
+sudo pmset -a disksleep 0
+
+# Wake for network access
+sudo pmset -a womp 1
+
+# Don't restart after power failure
+sudo pmset -a autorestart 0
+
+# Wake computer when laptop is opened
+sudo pmset -a lidwake 1
+
+# Don't wake computer when power source changes
+sudo pmset -a acwake 0
+
+# Don't dim brightness on any different source
+sudo pmset -a lessbright 0
+
+# Disable sudden motion sensor
+sudo pmset -a sms 0

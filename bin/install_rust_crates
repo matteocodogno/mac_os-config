@@ -1,5 +1,0 @@
-#! /usr/bin/env bash
-
-# Installs Rust crates.
-
-cargo install silicon
