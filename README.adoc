@@ -4,8 +4,8 @@
 
 = macOS Configuration
 
-[link=https://circleci.com/gh/bkuhlmann/mac_os-config]
-image::https://circleci.com/gh/bkuhlmann/mac_os-config.svg?style=svg[Circle CI Status]
+[link=https://circleci.com/gh/matteocodogno/mac_os-config]
+image::https://circleci.com/gh/matteocodogno/mac_os-config.svg?style=svg[Circle CI Status]
 
 Shell scripts for customized macOS machine setup and configuration.
 
@@ -278,7 +278,7 @@ To install, run:
 
 [source,bash]
 ----
-git clone https://github.com/bkuhlmann/mac_os-config.git
+git clone https://github.com/matteocodogno/mac_os-config.git
 cd mac_os-config
 git checkout 18.1.1
 ----
@@ -432,7 +432,7 @@ case, I use the following configurations:
 +
 ....
   # logfilename                                            [owner:group]    mode   count   size  when  flags
-  /Users/bkuhlmann/Dropbox/Development/Work/**/log/*.log                    644    2       5120  *     GJN
+  /Users/matteocodogno/Dropbox/Development/Work/**/log/*.log                    644    2       5120  *     GJN
 ....
 * `+/etc/newsyslog.d/homebrew.conf+`
 +
@@ -501,7 +501,7 @@ To contribute, run:
 
 [source,bash]
 ----
-git clone https://github.com/bkuhlmann/mac_os-config.git
+git clone https://github.com/matteocodogno/mac_os-config.git
 cd mac_os-config
 ----
 

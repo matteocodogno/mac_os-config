@@ -12,8 +12,7 @@ IFS=$'\n\t'
 export HOMEBREW_CURL_RETRIES=3
 
 # Repositories
-export REPO_SUBLIME_TEXT_SETUP=15.1.0
-export REPO_DOTFILES=43.0.0
+export REPO_DOTFILES=1.0.0
 
 # Applications
 export DOCKER_APP_NAME="Docker.app"
