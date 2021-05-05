@@ -1,7 +1,6 @@
 # macOS Configuration
 
-[link=https://circleci.com/gh/matteocodogno/mac_os-config]
-image::https://circleci.com/gh/matteocodogno/mac_os-config.svg?style=svg[Circle CI Status]
+[![CircleCI](https://circleci.com/gh/matteocodogno/mac_os-config.svg?style=svg)](https://circleci.com/gh/matteocodogno/mac_os-config)
 
 Shell scripts for customized macOS machine setup and configuration.
 
@@ -83,86 +82,78 @@ provides the command line interface for running the configuration defined by thi
 The following are additional steps, not easily automated, that are worth completing after the
 install scripts have completed:
 
-* System Preferences
-** Apple ID
-*** Configure iCloud.
-*** Enable Find My Mac.
-** Security & Privacy
-*** General
-**** Require password immediately after sleep or screen saver begins.
-**** Enable message when screen is locked. Example: `+<url> | <email> | <phone>+`.
-**** Allow your Apple Watch to unlock your Mac.
-*** FileVault
-**** Enable FileVault and save the recovery key in a secure location (i.e. 1Password).
-*** Firewall
-**** Enable.
-**** Automatically allow signed software.
-**** Enable stealth mode.
-** Internet Accounts
-*** Add all accounts.
-** Touch ID
-*** Rename fingerprint.
-** Keyboard
-*** Keyboard
-**** Slide _Key Repeat_ to _Fast_ (max).
-**** Slide _Delay Until Repeat_ to _Short_ (max).
-*** Shortcuts
-**** Select _Launchpad and Dock_ and uncheck _Turn Dock Hiding On/Off_.
-**** Select _Mission Control_ and assign `CONTROL + OPTION + COMMAND + N` to _Show Notification
-     Center_.
-**** Select _Screenshots_ and uncheck all boxes.
-** Desktop and Screen Saver
-*** Select _Desktop_, click `+`, and choose custom image.
-*** Select _Screen Saver_, select _Message_, enter custom message, start after 10 minutes, and check
-    _show with clock_.
-** Bluetooth
-*** Reconnect keyboard, mouse, and earbuds.
-** Network
-*** Configure Wi-Fi.
-** Printers & Scanners
-*** Add printer/scanner.
-** Users & Groups
-*** Update avatar image.
-*** Remove unused login items.
-*** Disable guest account.
-** Wallet and Apple Pay
-*** Reenable all accounts and assign default card.
-** Sound
-*** Sound Effects
-**** Uncheck _Play sound on startup_.
-**** Uncheck _Play user interface sound effects_.
-*** Battery
-**** Click on _Battery_ and uncheck _Show battery status in menu bar_.
-**** Click on _Power Adapter_ and check _Prevent computer from sleeping automatically when the
-     display is off_.
-** Notifications
-*** Do Not Disturb
-**** Enable _Do Not Disturb_ from 9pm to 7am.
-**** Enable _When display is sleeping_.
-**** Enable _When screen is locked_.
-**** Enable _When mirroring_.
-**** Disable _Allow calls from everyone_.
-**** Enable allow repeated calls.
-*** Applications
-**** Select _Banners_ for all apps.
-**** Disable _Show notifications on lock screen_.
-**** Disable _Play sounds for notifications_.
-* iStat Menus
-** Double click, within the Applications folder, to install as a system preference.
-* Carbon Copy Cloner
-** Rename old backup, create new backup, and set frequency schedule.
-* Ensure link:https://support.apple.com/en-us/HT208198[Startup Security Utility] is enabled.
-** Restart your machine then press and hold `COMMAND + R` immediately after seeing the Apple logo.
-** Select _Secure Boot: Full Security_.
-** Select _External Boot: Disallow booting from external or removable media_.
-** Click _Turn On Firmware Password_.
-** Quit the utility and restart the machine.
+- System Preferences
+  - Apple ID
+    - Configure iCloud.
+    - Enable Find My Mac.
+  - Security & Privacy
+    - General
+      - Require password immediately after sleep or screen saver begins.
+      - Enable message when screen is locked. Example: `<url> | <email> | <phone>`.
+      - Allow your Apple Watch to unlock your Mac.
+    - FileVault
+      - Enable FileVault and save the recovery key in a secure location (i.e. 1Password).
+    - Firewall
+      - Enable.
+      - Automatically allow signed software.
+      - Enable stealth mode.
+  - Internet Accounts
+    - Add all accounts.
+  - Touch ID
+    - Rename fingerprint.
+  - Keyboard
+    - Keyboard
+      - Slide _Key Repeat_ to _Fast_ (max).
+      - Slide _Delay Until Repeat_ to _Short_ (max).
+    - Shortcuts
+      - Select _Launchpad and Dock_ and uncheck _Turn Dock Hiding On/Off_.
+      - Select _Mission Control_ and assign `CONTROL + OPTION + COMMAND + N` to _Show Notification Center_.
+      - Select _Screenshots_ and uncheck all boxes.
+  - Desktop and Screen Saver
+    - Select _Desktop_, click `+`, and choose custom image.
+    - Select _Screen Saver_, select _Message_, enter custom message, start after 10 minutes, and check _show with clock_.
+  - Bluetooth
+    - Reconnect keyboard, mouse, and earbuds.
+  - Network
+    - Configure Wi-Fi.
+  - Printers & Scanners
+    - Add printer/scanner.
+  - Users & Groups
+    - Update avatar image.
+    - Remove unused login items.
+    - Disable guest account.
+  - Wallet and Apple Pay
+    - Reenable all accounts and assign default card.
+  - Sound
+    - Sound Effects
+      - Uncheck _Play sound on startup_.
+      - Uncheck _Play user interface sound effects_.
+    - Battery
+      - Click on _Battery_ and uncheck _Show battery status in menu bar_.
+      - Click on _Power Adapter_ and check _Prevent computer from sleeping automatically when the display is off_.
+  - Notifications
+    - Do Not Disturb
+      - Enable _Do Not Disturb_ from 9pm to 7am.
+      - Enable _When display is sleeping_.
+      - Enable _When screen is locked_.
+      - Enable _When mirroring_.
+      - Disable _Allow calls from everyone_.
+      - Enable allow repeated calls.
+    - Applications
+      - Select _Banners_ for all apps.
+      - Disable _Show notifications on lock screen_.
+      - Disable _Play sounds for notifications_.
+- Ensure link:https://support.apple.com/en-us/HT208198[Startup Security Utility] is enabled.
+  - Restart your machine then press and hold `COMMAND + R` immediately after seeing the Apple logo.
+  - Select _Secure Boot: Full Security_.
+  - Select _External Boot: Disallow booting from external or removable media_.
+  - Click _Turn On Firmware Password_.
+  - Quit the utility and restart the machine.
 
 ### Keyboard Shortcuts
 
 Several applications provide global hotkey support. These are the associations I use (which are also
 captured in the `restore.bom` as well):
-
 
 ### Newsyslog
 
