@@ -1,34 +1,24 @@
 # APPLICATIONS
 
-# Acorn
-/Users/matteocodogno/Library/Preferences/com.flyingmeat.Acorn5.LSSharedFileList.plist
-
-# Alchemists
-/Users/matteocodogno/Library/Preferences/io.alchemists.www.plist
-
 # Alfred
 /Users/matteocodogno/Library/Preferences/com.runningwithcrayons.Alfred-Preferences.plist
 /Users/matteocodogno/Library/Preferences/com.runningwithcrayons.Alfred.plist
 
 # App Cleaner
-/Users/matteocodogno/Library/Preferences/com.freemacsoft.AppCleaner.plist
+# /Users/matteocodogno/Library/Preferences/com.freemacsoft.AppCleaner.plist
 /Users/matteocodogno/Library/Preferences/net.freemacsoft.AppCleaner.plist
 
-# Apple AirPlay
-/Users/matteocodogno/Library/Preferences/com.apple.airplay.plist
-
 # Apple App Store
-/Users/matteocodogno/Library/Preferences/com.apple.appstore.commerce.plist
 /Users/matteocodogno/Library/Preferences/com.apple.appstore.plist
+
+# Apple Battery
+/Users/matteocodogno/Library/Preferences/com.apple.menuextra.battery.plist
 
 # Apple Clock
 /Users/matteocodogno/Library/Preferences/com.apple.menuextra.clock.plist
 
 # Apple Contacts
 /Users/matteocodogno/Library/Preferences/com.apple.AddressBook.plist
-
-# Apple Control Center
-/Users/matteocodogno/Library/Preferences/com.apple.controlcenter.plist
 
 # Apple FaceTime
 /Users/matteocodogno/Library/Preferences/com.apple.facetime.bag.plist
@@ -39,15 +29,10 @@
 /Users/matteocodogno/Library/Preferences/com.apple.finder.plist
 
 # Apple Image Capture
-/Users/matteocodogno/Library/Preferences/com.apple.ImageCaptureExtension2.plist
-/Users/matteocodogno/Library/Preferences/com.apple.Image_Capture.plist
+/Users/matteocodogno/Library/Preferences/com.apple.imagecapture.plist
 
 # Apple iTunes
-/Users/matteocodogno/Library/Preferences/com.apple.iTunes.eq.plist
-/Users/matteocodogno/Library/Preferences/com.apple.iTunes.Gracenote.plist
-/Users/matteocodogno/Library/Preferences/com.apple.iTunes.Gracenote.plist
 /Users/matteocodogno/Library/Preferences/com.apple.iTunes.plist
-/Users/matteocodogno/Library/Preferences/com.apple.iTunesHelper.plist
 
 # Apple Mouse and Trackpad
 /Users/matteocodogno/Library/Preferences/com.apple.driver.AppleBluetoothMultitouch.mouse.plist
@@ -60,131 +45,74 @@
 # Apple System Preferences
 /Users/matteocodogno/Library/Preferences/com.apple.systempreferences.plist
 
-# Audio Hijack
-/Users/matteocodogno/Library/Preferences/com.rogueamoeba.audiohijack3.plist
-
 # Balena Etcher
-/Users/matteocodogno/Library/Preferences/io.balena.etcher.plist
-
-# Bartender
-/Users/matteocodogno/Library/Preferences/com.surteesstudios.Bartender.plist
-
-# Carbon Copy Cloner
-/Users/matteocodogno/Library/Preferences/com.bombich.ccc.plist
-
-# ClipGrab
-/Users/matteocodogno/Library/Preferences/de.clipgrab.ClipGrab.plist
-
-# CleanShot
-/Users/matteocodogno/Library/Preferences/pl.maketheweb.cleanshotx.plist
-
-# Dash
-/Users/matteocodogno/Library/Application Support/Dash
-/Users/matteocodogno/Library/Preferences/com.kapeli.dashdoc.plist
+# /Users/matteocodogno/Library/Preferences/io.balena.etcher.plist
 
 # Discord
-/Users/matteocodogno/Library/Preferences/com.hnc.Discord.plist
+# /Users/matteocodogno/Library/Preferences/com.hnc.Discord.plist
 
 # Docker
 /Users/matteocodogno/Library/Preferences/com.docker.docker.plist
 
-# Doxie
-/Users/matteocodogno/Library/Preferences/com.getdoxie.doxie.plist
-
 # Firefox
 /Users/matteocodogno/Library/Preferences/org.mozilla.firefox.plist
-
-# Fission
-/Users/matteocodogno/Library/Preferences/com.rogueamoeba.Fission.plist
 
 # Google Chrome
 /Users/matteocodogno/Library/Preferences/com.google.Chrome.plist
 
-# Hazel
-/Users/matteocodogno/Library/Application Support/Hazel
-/Users/matteocodogno/Library/Preferences/com.noodlesoft.Hazel.plist
-/Users/matteocodogno/Library/Preferences/com.noodlesoft.HazelHelper.plist
+# Google Cloud
+/Users/matteocodogno/Library/Preferences/com.googlecode.iterm2.plist
+/Users/matteocodogno/Library/Preferences/com.googlecode.iterm2.private.plist
+
+# Google Drive
+/Users/matteocodogno/Library/Preferences/com.google.drivefs.settings.plist
+/Users/matteocodogno/Library/Preferences/com.google.drivefs.plist
 
 # IVPN
-/Users/matteocodogno/Library/Preferences/net.ivpn.client.IVPN.plist
-
-# ImageOptim
-/Users/matteocodogno/Library/Preferences/net.pornel.ImageOptim.plist
-
-# iStat Menus
-/Users/matteocodogno/Library/Preferences/com.bjango.istatmenus.plist
-/Users/matteocodogno/Library/Preferences/com.bjango.istatmenus6.extras.plist
+# /Users/matteocodogno/Library/Preferences/net.ivpn.client.IVPN.plist
 
 # iTerm
 /Users/matteocodogno/Library/Preferences/com.googlecode.iterm2.plist
 
+# JetBrains
+/Users/matteocodogno/Library/Preferences/com.jetbrains.toolbox.plist
+
+# KeeWeb
+/Users/matteocodogno/Library/Preferences/net.antelle.keeweb.plist
+
 # KeyCastr
-/Users/matteocodogno/Library/Preferences/net.stephendeken.KeyCastr.plist
-
-# Keymou
-/Users/matteocodogno/Library/Preferences/com.manytricks.Keymo.plist
-
-# LimeChat
-/Users/matteocodogno/Library/Preferences/net.limechat.LimeChat-AppStore.plist
-
-# Max
-/Users/matteocodogno/Library/Preferences/org.sbooth.Max.LSSharedFileList.plist
-/Users/matteocodogno/Library/Preferences/org.sbooth.Max.plist
+# /Users/matteocodogno/Library/Preferences/net.stephendeken.KeyCastr.plist
 
 # Micro Snitch
-/Users/matteocodogno/Library/Preferences/at.obdev.MicroSnitch.plist
-
-# MoneyWell
-/Users/matteocodogno/Library/Preferences/com.nothirst.moneywell.mac.LSSharedFileList.plist
-
-# Moom
-/Users/matteocodogno/Library/Preferences/com.manytricks.Moom.plist
+# /Users/matteocodogno/Library/Preferences/at.obdev.MicroSnitch.plist
 
 # Muzzle
-/Users/matteocodogno/Library/Preferences/com.incident57.Muzzle.plist
-
-# NetNewsWire
-/Users/matteocodogno/Library/Preferences/com.ranchero.NetNewsWire-Evergreen.plist
+# /Users/matteocodogno/Library/Preferences/com.incident57.Muzzle.plist
 
 # Numi
-/Users/matteocodogno/Library/Preferences/com.dmitrynikolaev.numi.plist
+# /Users/matteocodogno/Library/Preferences/com.dmitrynikolaev.numi.plist
 
-# Path Finder
-/Users/matteocodogno/Library/Application Support/Path Finder
-/Users/matteocodogno/Library/Preferences/com.cocoatech.PathFinder.LSSharedFileList.plist
-/Users/matteocodogno/Library/Preferences/com.cocoatech.PathFinder.plist
-
-# pgAdmin
-/Users/matteocodogno/Library/Preferences/org.pgadmin.pgAdmin 4.plist
-
-# PixelSnap
-/Users/matteocodogno/Library/Preferences/pl.maketheweb.pixelsnap2.plist
-
-# Retrobatch
-/Users/matteocodogno/Library/Preferences/com.flyingmeat.Retrobatch.plist
-
-# Resolutionator
-/Users/matteocodogno/Library/Preferences/com.manytricks.Resolutionator.plist
+# Rectangle
+/Users/matteocodogno/Library/Preferences/com.knollsoft.Rectangle.plist
 
 # Signal
 /Users/matteocodogno/Library/Preferences/org.whispersystems.signal-desktop.helper.plist
 /Users/matteocodogno/Library/Preferences/org.whispersystems.signal-desktop.plist
 
-# Sonos
-/Users/matteocodogno/Library/Preferences/com.sonos.macController.plist
-
 # Spotify
-/Users/matteocodogno/Library/Preferences/com.spotify.client.helper.plist
+# /Users/matteocodogno/Library/Preferences/com.spotify.client.helper.plist
 /Users/matteocodogno/Library/Preferences/com.spotify.client.plist
 
+# SwitchHosts
+/Users/matteocodogno/Library/Preferences/SwitchHosts.plist
+
 # Transmit
-/Users/matteocodogno/Library/Preferences/com.panic.Transmit.plist
+# /Users/matteocodogno/Library/Preferences/com.panic.Transmit.plist
 
 # Viscosity
-/Users/matteocodogno/Library/Preferences/com.viscosityvpn.Viscosity.plist
+# /Users/matteocodogno/Library/Preferences/com.viscosityvpn.Viscosity.plist
 
 # Visual Studio Code
-/Users/matteocodogno/Library/Preferences/com.microsoft.VSCode.helper.plist
 /Users/matteocodogno/Library/Preferences/com.microsoft.VSCode.plist
 
 # VLC
@@ -194,29 +122,33 @@
 # SYSTEM
 
 # newsyslog
-/Users/matteocodogno/Library/LaunchAgents/com.apple.newsyslog.plist
+# /Users/matteocodogno/Library/LaunchAgents/com.apple.newsyslog.plist
 
 # USER
-/Users/matteocodogno/.asciinema
+# /Users/matteocodogno/.asciinema
 /Users/matteocodogno/.cache
 /Users/matteocodogno/.config
-/Users/matteocodogno/.gem/credentials
-/Users/matteocodogno/.gem/gem-private_key.pem
-/Users/matteocodogno/.gem/gem-public_cert.pem
+/Users/matteocodogno/.fnm
+# /Users/matteocodogno/.gem/credentials
+#/Users/matteocodogno/.gem/gem-private_key.pem
+# /Users/matteocodogno/.gem/gem-public_cert.pem
 /Users/matteocodogno/.gitconfig
 /Users/matteocodogno/.gnupg
-/Users/matteocodogno/.minisign
-/Users/matteocodogno/.netrc
-/Users/matteocodogno/.parallel
-/Users/matteocodogno/.pgadmin
-/Users/matteocodogno/.siege
+/Users/matteocodogno/.minikube
+/Users/matteocodogno/.oh-my-zsh
+/Users/matteocodogno/.npmrc
+/Users/matteocodogno/.p10k.zsh
+# /Users/matteocodogno/.netrc
+# /Users/matteocodogno/.parallel
+# /Users/matteocodogno/.pgadmin
+/Users/matteocodogno/.rbenv
+/Users/matteocodogno/.sdkman
+# /Users/matteocodogno/.siege
 /Users/matteocodogno/.ssh
-/Users/matteocodogno/.ssl
+# /Users/matteocodogno/.ssl
+/Users/matteocodogno/.SwitchHosts
+/Users/matteocodogno/.vimrc
 /Users/matteocodogno/.vscode
-/Users/matteocodogno/Apps
-/Users/matteocodogno/Desktop
-/Users/matteocodogno/Documents
+/Users/matteocodogno/.zshrc
+/Users/matteocodogno/LAB
 /Users/matteocodogno/Downloads
-/Users/matteocodogno/Dropbox
-/Users/matteocodogno/Engineering
-/Users/matteocodogno/Scratch
