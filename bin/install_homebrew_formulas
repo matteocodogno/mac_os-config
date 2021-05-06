@@ -10,6 +10,7 @@ brew install brightness
 brew install duti
 brew install exiftool
 brew install fd
+brew install fluxcd/tap/flux
 # brew install flac # Free lossless audio codec
 brew install fnm
 brew install git
