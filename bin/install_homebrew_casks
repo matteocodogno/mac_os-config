@@ -43,4 +43,6 @@ brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask keeweb
 brew install --cask keycastr
-brew install --cask font-firacode-nerd-font
+
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
