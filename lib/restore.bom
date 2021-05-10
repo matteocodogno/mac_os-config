@@ -125,29 +125,16 @@
 # /Users/matteocodogno/Library/LaunchAgents/com.apple.newsyslog.plist
 
 # USER
-# /Users/matteocodogno/.asciinema
 /Users/matteocodogno/.cache
 /Users/matteocodogno/.config
 /Users/matteocodogno/.fnm
-# /Users/matteocodogno/.gem/credentials
-#/Users/matteocodogno/.gem/gem-private_key.pem
-# /Users/matteocodogno/.gem/gem-public_cert.pem
-/Users/matteocodogno/.gitconfig
 /Users/matteocodogno/.gnupg
 /Users/matteocodogno/.minikube
 /Users/matteocodogno/.oh-my-zsh
-/Users/matteocodogno/.npmrc
-/Users/matteocodogno/.p10k.zsh
-# /Users/matteocodogno/.netrc
-# /Users/matteocodogno/.parallel
-# /Users/matteocodogno/.pgadmin
 /Users/matteocodogno/.rbenv
 /Users/matteocodogno/.sdkman
-# /Users/matteocodogno/.siege
 /Users/matteocodogno/.ssh
-# /Users/matteocodogno/.ssl
 /Users/matteocodogno/.SwitchHosts
-/Users/matteocodogno/.vimrc
 /Users/matteocodogno/.vscode
 /Users/matteocodogno/.zshrc
 /Users/matteocodogno/LAB

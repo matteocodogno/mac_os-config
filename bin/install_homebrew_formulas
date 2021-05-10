@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+! /usr/bin/env bash
 
 # Installs Homebrew software.
 
@@ -88,7 +88,9 @@ brew install watchman
 brew install wget
 brew install wrk
 # brew install yank
+brew install koekeishiya/formulae/yabai
 brew install z
 brew install zsh
 
 brew services start skhd
+brew services start yabai
