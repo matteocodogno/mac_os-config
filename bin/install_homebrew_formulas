@@ -32,6 +32,7 @@ brew install jq
 brew install koekeishiya/formulae/skhd
 brew install kubectx
 brew install kubernetes-cli
+brew install kustomize
 # brew install lame # High quality MPEG Audio Layer III (MP3) encoder
 brew install lnav
 brew install lynis
