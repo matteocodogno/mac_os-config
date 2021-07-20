@@ -41,6 +41,7 @@ brew install --cask switchhosts
 brew install --cask transmit
 brew install --cask viscosity
 brew install --cask visual-studio-code
+brew install --cask visualvm
 brew install --cask vlc
 brew install --cask keeweb
 brew install --cask keycastr
