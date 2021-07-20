@@ -2,12 +2,13 @@
 
 # Installs Homebrew software.
 
+brew install aquasecurity/trivy/trivy
 brew install asciinema
 brew install applesimutils
 brew install bat
 brew install blueutil
 brew install brightness
-brew install duti
+brew install duti # Select default apps for documents and URL schemes on macOS
 brew install exiftool
 brew install fd
 brew install fluxcd/tap/flux
@@ -25,13 +26,14 @@ brew install highlight
 brew install htop
 brew install httpie
 brew install httpstat
-brew install hyperfine
+brew install hyperfine # Command-line benchmarking tool
 brew install imageoptim-cli
-brew install ioping
+brew install ioping # Tool to monitor I/O latency in real time
 brew install jq
 brew install koekeishiya/formulae/skhd
 brew install kubectx
 brew install kubernetes-cli
+brew install kubeseal
 brew install kustomize
 # brew install lame # High quality MPEG Audio Layer III (MP3) encoder
 brew install lnav
@@ -87,7 +89,7 @@ brew install vim
 brew install watch
 brew install watchman
 brew install wget
-brew install wrk
+brew install wrk # HTTP benchmarking tool
 # brew install yank
 brew install koekeishiya/formulae/yabai
 brew install z
