@@ -1,5 +1,8 @@
 #! /usr/bin/env bash
 
+# GUIDE
+# https://ss64.com/osx/syntax-defaults.html
+
 # Applies system and application defaults.
 
 printf "%s\n" "System - Disable boot sound effects."
@@ -87,7 +90,7 @@ for domain in $HOME/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
 done
 
 printf "%s\n" "Menu Bar - Set menubar digital clock format."
-defaults write com.apple.menuextra.clock "DateFormat" -string "\"EEE d MMM HH:mm:ss\"" 
+defaults write com.apple.menuextra.clock "DateFormat" -string "\"EEE d MMM HH:mm:ss\""
 
 defaults write com.apple.systemuiserver menuExtras -array \
   "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
@@ -114,7 +117,7 @@ defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 printf "%s\n" "Finder - Automatically hide and show the menu bar"
 defaults write NSGlobalDomain _HIHideMenuBar -bool true
 
-printf "%s\n" "Finder - Automatically hide and show the menu bar"
+printf "%s\n" "Finder - Set dark theme"
 defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 
 printf "%s\n" "Finder - Show the $HOME/Library folder."
@@ -225,6 +228,9 @@ defaults write com.apple.appstore WebKitDeveloperExtras -bool true
 
 printf "%s\n" "App Store - Enable Debug Menu in the Mac App Store."
 defaults write com.apple.appstore ShowDebugMenu -bool true
+
+printf "%s\n" "Display - reduce transparency"
+defaults write com.apple.universalaccess reduceTransparency -bool true
 
 printf "%s\n" "Power settings"
 
