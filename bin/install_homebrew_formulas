@@ -15,6 +15,8 @@ brew install fd
 brew install fluxcd/tap/flux
 # brew install flac # Free lossless audio codec
 brew install fnm
+brew tap sighupio/furyctl
+brew install furyctl
 brew install git
 brew install git-delta
 brew install git-filter-repo
@@ -32,7 +34,8 @@ brew install hyperfine # Command-line benchmarking tool
 brew install imageoptim-cli
 brew install ioping # Tool to monitor I/O latency in real time
 brew install jq
-brew install koekeishiya/formulae/skhd
+brew install kind
+brew koekeishiya/formulae/skhd
 brew install kubectx
 brew install kubernetes-cli
 brew install kubeseal

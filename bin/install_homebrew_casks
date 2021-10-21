@@ -7,6 +7,7 @@ brew install --cask appcleaner
 brew install --cask balenaetcher
 brew install --cask beaker-browser
 # brew install --cask cleanshot
+# download audio and video from browser
 brew install --cask clipgrab
 brew install --cask discord
 brew install --cask docker
@@ -23,8 +24,10 @@ brew install --cask jetbrains-toolbox
 brew install --cask ksdiff
 # brew install --cask micro-snitch
 brew install --cask microsoft-teams
+# Silence embarrassing notifications while screensharing
 brew install --cask muzzle
 brew install --cask ngrok
+# Calculator and converter application
 brew install --cask numi
 brew install --cask owasp-zap
 brew install --cask path-finder
@@ -44,6 +47,8 @@ brew install --cask visual-studio-code
 brew install --cask visualvm
 brew install --cask vlc
 brew install --cask keeweb
+brew install --cask zoom
+# Open-source keystroke visualizer
 brew install --cask keycastr
 
 brew tap homebrew/cask-fonts
