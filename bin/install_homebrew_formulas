@@ -35,7 +35,6 @@ brew install imageoptim-cli
 brew install ioping # Tool to monitor I/O latency in real time
 brew install jq
 brew install kind
-brew koekeishiya/formulae/skhd
 brew install kubectx
 brew install kubernetes-cli
 brew install kubeseal
@@ -98,9 +97,6 @@ brew install watchman
 brew install wget
 brew install wrk # HTTP benchmarking tool
 # brew install yank
-brew install koekeishiya/formulae/yabai
 brew install z
 brew install zsh
 
-brew services start skhd
-brew services start yabai

@@ -34,6 +34,7 @@ brew install --cask path-finder
 # brew install --cask paw
 brew install --cask insomnia
 brew install --cask pgadmin4
+brew install --cask rectangle
 # brew install --cask pixelsnap
 # brew install --cask resolutionator
 # brew install --cask retrobatch
