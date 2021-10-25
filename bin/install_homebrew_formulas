@@ -44,6 +44,8 @@ brew install kustomize
 # Security and system auditing tool to harden systems
 brew install lynis
 brew install magic-wormhole # Securely transfers data between computers
+brew tap mongodb/brew
+brew install mongodb-community@5.0
 brew install mas
 brew install minisign
 brew install neovim
@@ -87,7 +89,6 @@ brew install stern
 # brew install tarsnap # Online backups for the truly paranoid
 brew install terraform
 brew install terraformer
-brew install thefuck
 # brew install the_silver_searcher # Code-search similar to ack
 # brew install tmux
 brew install tokeii # statistics about your code
