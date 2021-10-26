@@ -38,6 +38,8 @@ brew install kind
 brew install kubectx
 brew install kubernetes-cli
 brew install kubeseal
+brew tap instrumenta/instrumenta
+brew install kubeval
 brew install kustomize
 # brew install lame # High quality MPEG Audio Layer III (MP3) encoder
 # brew install lnav
