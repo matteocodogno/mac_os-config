@@ -1,5 +1,6 @@
 #! /usr/bin/env bash
 
 # Installs Node packages.
+npm install --global fkill-cli
 
 
