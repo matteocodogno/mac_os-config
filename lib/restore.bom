@@ -1,141 +1,135 @@
 # APPLICATIONS
 
 # Alfred
-/Users/matteocodogno/Library/Preferences/com.runningwithcrayons.Alfred-Preferences.plist
-/Users/matteocodogno/Library/Preferences/com.runningwithcrayons.Alfred.plist
+/Preferences/com.runningwithcrayons.Alfred-Preferences.plist
+/Preferences/com.runningwithcrayons.Alfred.plist
 
 # App Cleaner
-# /Users/matteocodogno/Library/Preferences/com.freemacsoft.AppCleaner.plist
-/Users/matteocodogno/Library/Preferences/net.freemacsoft.AppCleaner.plist
+/Preferences/net.freemacsoft.AppCleaner.plist
 
 # Apple App Store
-/Users/matteocodogno/Library/Preferences/com.apple.appstore.plist
+/Preferences/com.apple.appstore.plist
 
 # Apple Battery
-/Users/matteocodogno/Library/Preferences/com.apple.menuextra.battery.plist
+/Preferences/com.apple.menuextra.battery.plist
 
 # Apple Clock
-/Users/matteocodogno/Library/Preferences/com.apple.menuextra.clock.plist
+/Preferences/com.apple.menuextra.clock.plist
 
 # Apple Contacts
-/Users/matteocodogno/Library/Preferences/com.apple.AddressBook.plist
+/Preferences/com.apple.AddressBook.plist
 
 # Apple FaceTime
-/Users/matteocodogno/Library/Preferences/com.apple.facetime.bag.plist
-/Users/matteocodogno/Library/Preferences/com.apple.FaceTime.plist
-/Users/matteocodogno/Library/Preferences/com.apple.imservice.ids.FaceTime.plist
+/Preferences/com.apple.facetime.bag.plist
+/Preferences/com.apple.FaceTime.plist
+/Preferences/com.apple.imservice.ids.FaceTime.plist
 
 # Apple Finder
-/Users/matteocodogno/Library/Preferences/com.apple.finder.plist
+/Preferences/com.apple.finder.plist
 
 # Apple Image Capture
-/Users/matteocodogno/Library/Preferences/com.apple.imagecapture.plist
+/Preferences/com.apple.imagecapture.plist
 
 # Apple iTunes
-/Users/matteocodogno/Library/Preferences/com.apple.iTunes.plist
+/Preferences/com.apple.iTunes.plist
 
 # Apple Mouse and Trackpad
-/Users/matteocodogno/Library/Preferences/com.apple.driver.AppleBluetoothMultitouch.mouse.plist
-/Users/matteocodogno/Library/Preferences/com.apple.driver.AppleBluetoothMultitouch.trackpad.plist
-/Users/matteocodogno/Library/Preferences/com.apple.driver.AppleHIDMouse.plist
+/Preferences/com.apple.driver.AppleBluetoothMultitouch.mouse.plist
+/Preferences/com.apple.driver.AppleBluetoothMultitouch.trackpad.plist
+/Preferences/com.apple.driver.AppleHIDMouse.plist
 
 # Apple Siri
-/Users/matteocodogno/Library/Preferences/com.apple.Siri.plist
+/Preferences/com.apple.Siri.plist
 
 # Apple System Preferences
-/Users/matteocodogno/Library/Preferences/com.apple.systempreferences.plist
+/Preferences/com.apple.systempreferences.plist
 
 # Balena Etcher
-# /Users/matteocodogno/Library/Preferences/io.balena.etcher.plist
+/Preferences/io.balena.etcher.plist
 
 # Discord
-# /Users/matteocodogno/Library/Preferences/com.hnc.Discord.plist
+/Preferences/com.hnc.Discord.plist
 
 # Docker
-/Users/matteocodogno/Library/Preferences/com.docker.docker.plist
+/Preferences/com.docker.docker.plist
 
 # Firefox
-/Users/matteocodogno/Library/Preferences/org.mozilla.firefox.plist
+/Preferences/org.mozilla.firefox.plist
 
 # Google Chrome
-/Users/matteocodogno/Library/Preferences/com.google.Chrome.plist
+/Preferences/com.google.Chrome.plist
 
 # Google Cloud
-/Users/matteocodogno/Library/Preferences/com.googlecode.iterm2.plist
-/Users/matteocodogno/Library/Preferences/com.googlecode.iterm2.private.plist
+/Preferences/com.googlecode.iterm2.plist
+/Preferences/com.googlecode.iterm2.private.plist
 
 # Google Drive
-/Users/matteocodogno/Library/Preferences/com.google.drivefs.settings.plist
-/Users/matteocodogno/Library/Preferences/com.google.drivefs.plist
-
-# IVPN
-# /Users/matteocodogno/Library/Preferences/net.ivpn.client.IVPN.plist
+/Preferences/com.google.drivefs.settings.plist
+/Preferences/com.google.drivefs.plist
 
 # iTerm
-/Users/matteocodogno/Library/Preferences/com.googlecode.iterm2.plist
+/Preferences/com.googlecode.iterm2.plist
 
 # JetBrains
-/Users/matteocodogno/Library/Preferences/com.jetbrains.toolbox.plist
+/Preferences/com.jetbrains.toolbox.plist
+/Preferences/com.jetbrains.goland.plist
+/Preferences/com.jetbrains.intellij.plist
+/Preferences/com.jetbrains.pycharm.plist
+/Preferences/com.jetbrains.rider.plist
+/Preferences/com.jetbrains.toolbox.renderer.plist
+
+# Citrix
+/Preferences/com.citrix.AuthManager.plist
+/Preferences/com.citrix.CitrixReceiverLauncher.plist
+/Preferences/com.citrix.ReceiverUpdater.plist
+/Preferences/com.citrix.receiver.helper.plist
+/Preferences/com.citrix.receiver.icaviewer.mac.plist
+/Preferences/com.citrix.receiver.nomas.plist
+
+# Fortinet
+/Preferences/com.jetbrains.toolbox.renderer.plist
 
 # KeeWeb
-/Users/matteocodogno/Library/Preferences/net.antelle.keeweb.plist
+/Preferences/net.antelle.keeweb.plist
 
 # KeyCastr
-# /Users/matteocodogno/Library/Preferences/net.stephendeken.KeyCastr.plist
-
-# Micro Snitch
-# /Users/matteocodogno/Library/Preferences/at.obdev.MicroSnitch.plist
-
-# Muzzle
-# /Users/matteocodogno/Library/Preferences/com.incident57.Muzzle.plist
-
-# Numi
-# /Users/matteocodogno/Library/Preferences/com.dmitrynikolaev.numi.plist
+# /Preferences/net.stephendeken.KeyCastr.plist
 
 # Rectangle
-/Users/matteocodogno/Library/Preferences/com.knollsoft.Rectangle.plist
+/Preferences/com.knollsoft.Rectangle.plist
 
 # Signal
-/Users/matteocodogno/Library/Preferences/org.whispersystems.signal-desktop.helper.plist
-/Users/matteocodogno/Library/Preferences/org.whispersystems.signal-desktop.plist
+/Preferences/org.whispersystems.signal-desktop.helper.plist
+/Preferences/org.whispersystems.signal-desktop.plist
 
 # Spotify
-# /Users/matteocodogno/Library/Preferences/com.spotify.client.helper.plist
-/Users/matteocodogno/Library/Preferences/com.spotify.client.plist
+/Preferences/com.spotify.client.plist
+
+# Insomnia
+/Preferences/com.insomnia.app.plist
 
 # SwitchHosts
-/Users/matteocodogno/Library/Preferences/SwitchHosts.plist
-
-# Transmit
-# /Users/matteocodogno/Library/Preferences/com.panic.Transmit.plist
-
-# Viscosity
-# /Users/matteocodogno/Library/Preferences/com.viscosityvpn.Viscosity.plist
+/Preferences/SwitchHosts.plist
 
 # Visual Studio Code
-/Users/matteocodogno/Library/Preferences/com.microsoft.VSCode.plist
+/Preferences/com.microsoft.VSCode.plist
 
 # VLC
-/Users/matteocodogno/Library/Application Support/org.videolan.vlc
-/Users/matteocodogno/Library/Preferences/org.videolan.vlc.plist
+/Preferences/org.videolan.vlc.plist
 
 # SYSTEM
 
-# newsyslog
-# /Users/matteocodogno/Library/LaunchAgents/com.apple.newsyslog.plist
-
 # USER
-/Users/matteocodogno/.cache
-/Users/matteocodogno/.config
-/Users/matteocodogno/.fnm
-/Users/matteocodogno/.gnupg
-/Users/matteocodogno/.minikube
-/Users/matteocodogno/.oh-my-zsh
-/Users/matteocodogno/.rbenv
-/Users/matteocodogno/.sdkman
-/Users/matteocodogno/.ssh
-/Users/matteocodogno/.SwitchHosts
-/Users/matteocodogno/.vscode
-/Users/matteocodogno/.zshrc
-/Users/matteocodogno/LAB
-/Users/matteocodogno/Downloads
+/.cache
+/.config
+/.fnm
+/.minikube
+/.oh-my-zsh
+/.rbenv
+/.sdkman
+/.ssh
+/.SwitchHosts
+/.vscode
+/.zshrc
+/LAB
+/Downloads
