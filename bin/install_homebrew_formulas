@@ -44,6 +44,9 @@ brew install kustomize
 # brew install lame # High quality MPEG Audio Layer III (MP3) encoder
 # brew install lnav
 # Security and system auditing tool to harden systems
+# PostgreSQL client tools
+brew install libpq
+brew link --force libpq
 brew install lynis
 brew install magic-wormhole # Securely transfers data between computers
 brew tap mongodb/brew
