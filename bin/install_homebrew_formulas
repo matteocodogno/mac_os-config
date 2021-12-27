@@ -1,4 +1,4 @@
-! /usr/bin/env bash
+#! /usr/bin/env bash
 
 # Installs Homebrew software.
 
@@ -97,6 +97,8 @@ brew install terraformer
 # brew install the_silver_searcher # Code-search similar to ack
 # brew install tmux
 brew install tokeii # statistics about your code
+# Backup and migrate Kubernetes resources
+brew install velero
 brew install vim
 brew install watch
 brew install watchman
