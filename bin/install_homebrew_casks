@@ -28,6 +28,7 @@ brew install --cask microsoft-teams
 # Silence embarrassing notifications while screensharing
 brew install --cask muzzle
 brew install --cask ngrok
+brew install --cask notion
 # Calculator and converter application
 brew install --cask numi
 brew install --cask owasp-zap
