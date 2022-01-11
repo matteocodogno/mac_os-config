@@ -8,6 +8,7 @@ brew install applesimutils
 brew install bat
 brew install blueutil
 brew install brightness
+brew install derailed/k9s/k9s
 brew install duti # Select default apps for documents and URL schemes on macOS
 brew install exercism
 brew install exiftool
