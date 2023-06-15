@@ -2,5 +2,5 @@
 
 # Installs Node packages.
 npm install --global fkill-cli
-
+npm install --global commitizen
 
