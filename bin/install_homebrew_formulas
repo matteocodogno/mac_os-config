@@ -79,6 +79,7 @@ brew install packer
 brew install parallel # Shell command parallelization utility
 brew install peco # Simplistic interactive filtering tool
 brew install pgcli
+brew install php
 brew install pigz # Parallel gzip
 # brew install pinentry-mac # pinentry is a small collection of dialog programs that allow GnuPG to read passphrases and PIN numbers in a secure manner.
 brew install pyenv
