@@ -6,19 +6,16 @@
 mas install 443987910
 
 # Hand Mirror
-mas install 1502839586
+# mas install 1502839586
 
 # Key Codes
 mas install 414568915
 
-# Medis
+# Medis - GUI for Redis
 mas install 1579200037
 
 # Meeter - more powerful meeting automations!
 # mas install 1510445899
-
-# Name Notability
-mas install 360593530
 
 # Numbers
 mas install 409203825
@@ -30,10 +27,10 @@ mas install 409203825
 # mas install 404478020
 
 # Pages
-mas install 409201541
+# mas install 409201541
 
 # Primitive
-mas install 1175103038
+# mas install 1175103038
 
 # Shush
 mas install 496437906
@@ -52,3 +49,6 @@ mas install 937984704
 
 # Giphy Capture
 mas install 668208984
+
+# Apple Configurator
+mas install 1037126344
