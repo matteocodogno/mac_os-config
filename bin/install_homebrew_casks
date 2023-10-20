@@ -51,6 +51,7 @@ brew install --cask viscosity
 brew install --cask visual-studio-code
 brew install --cask visualvm
 brew install --cask vlc
+brew install --cask whatsapp
 brew install --cask keeweb
 brew install --cask zoom
 # Open-source keystroke visualizer
