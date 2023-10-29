@@ -4,6 +4,7 @@
 
 brew install --cask alfred
 brew install --cask appcleaner
+brew install --cask arduino-ide
 brew install --cask balenaetcher
 brew install --cask beaker-browser
 # brew install --cask cleanshot
