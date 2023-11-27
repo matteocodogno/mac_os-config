@@ -15,13 +15,13 @@ brew install --cask docker
 brew install --cask dropbox
 brew install --cask firefox
 brew install --cask forklift
-brew install --cask forticlient
 brew install --cask google-chrome
 brew install --cask google-cloud-sdk
 brew install --cask google-drive
 brew install --cask imageoptim
 brew install --cask iterm2
 brew install --cask ivpn
+brew install --cask insomnia
 brew install --cask jetbrains-toolbox
 brew install --cask ksdiff
 # brew install --cask micro-snitch
@@ -35,7 +35,6 @@ brew install --cask numi
 brew install --cask owasp-zap
 brew install --cask path-finder
 # brew install --cask paw
-brew install --cask insomnia
 brew install --cask pgadmin4
 brew install --cask raspberry-pi-imager
 brew install --cask rectangle

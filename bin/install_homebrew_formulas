@@ -72,7 +72,8 @@ brew install nmap
 brew install noti
 # brew install nushell # Shell written in Rust
 brew install oha # HTTP load generator, inspired by rakyll/hey with tui animation
-brew install openvpn
+# brew install openvpn
+brew install openfortivpn
 brew install openssl
 # brew install pandoc # Swiss-army knife of markup format conversion
 brew install packer
