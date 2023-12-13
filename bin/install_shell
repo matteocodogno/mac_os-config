@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
 
 # Installs kubectl plugins
+
 kubectl krew install stern
 kubectl krew install whoami
 kubectl krew install ctx

@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-# Applies basic system settings.
+# Installs basic system settings.
 
 read -p "What is this machine's label (Example: \"Alchemist\")? " mac_os_label
 if [[ -z "$mac_os_label" ]]; then
@@ -24,6 +24,12 @@ read -p "Delete all files in $HOME/Downloads (y/n)? " downloads
 if [[ "$downloads" == "y" ]]; then
   rm -rf $HOME/Downloads/*
   printf "%s\n" "Downloads deleted."
+fi
+
+read -p "Change /usr/local ownership to $USER:staff (y/n)? " ownership
+if [[ "$ownership" == "y" ]]; then
+  sudo chown -R "$USER":staff /usr/local
+  printf "%s\n" "Ownership changed."
 fi
 
 printf "Setting system label and name...\n"
