@@ -11,19 +11,24 @@ brew install blueutil
 brew install brightness
 # kafka
 brew tap conduktor/brew
+# brew install croc # very similar to magic-wormhole but with more features and easier to use
 brew install conduktor
 brew install derailed/k9s/k9s
 brew install direnv
-brew install duti # Select default apps for documents and URL schemes on macOS
+brew install dive # A tool for exploring each layer in a docker image
+brew install duf # Disk Usage/Free Utility - a better 'df' alternative
+# brew install duti # Select default apps for documents and URL schemes on macOS
 # brew install exercism
 brew install exiftool
 brew install fd
 brew install fluxcd/tap/flux
 # brew install flac # Free lossless audio codec
 brew install fnm
+brew install frum # A little bit fast and modern Ruby version manager written in Rust
 brew tap sighupio/furyctl
 brew install furyctl
 brew install fzf
+brew install gping # Ping, but with a graph
 brew install git
 brew install gitleaks
 brew install git-delta
@@ -31,21 +36,19 @@ brew install git-filter-repo
 brew install git-lfs
 brew install git-sizer
 brew install go
-brew install graphicsmagick
+# brew install graphicsmagick
 brew install helm
 brew tap heroku/brew && brew install heroku
-brew install highlight
+brew install hexyl
 brew install htop
 brew install httpie
-brew install httpstat
+brew install httpstat # curl statistics made simple
 brew install hyperfine # Command-line benchmarking tool
 brew install imageoptim-cli
 brew install infracost
 brew install ioping # Tool to monitor I/O latency in real time
 brew install jq
-brew install Checkmarx/tap/kics # KICS stands for Keeping Infrastructure as Code Secure, it is open source and is a must-have for any cloud native project.
-# local k8s cluster in Docker
-brew install kind
+brew install kind # local k8s cluster in Docker
 brew install krew
 brew install kubernetes-cli
 brew install kubeseal
@@ -58,30 +61,30 @@ brew install kustomize
 # PostgreSQL client tools
 # brew install libpq
 # brew link --force libpq
-brew install lynis
+brew install lynis # Security and system auditing tool to harden systems
+brew install lnav # Log file navigator
 brew install magic-wormhole # Securely transfers data between computers
 brew tap mongodb/brew
 brew install mongodb-community@5.0
 brew install mas
-brew install minisign
+# brew install minisign # A dead simple tool to sign files and verify digital signatures.
 brew install neovim
 # brew install ncdu # Ncdu is a disk usage analyzer with an ncurses interface
 # brew install nginx
 brew install ngrep
 brew install nmap
-brew install noti
+brew install noti # Trigger notifications when a process completes
 # brew install nushell # Shell written in Rust
 brew install oha # HTTP load generator, inspired by rakyll/hey with tui animation
-# brew install openvpn
 brew install openfortivpn
 brew install openssl
 # brew install pandoc # Swiss-army knife of markup format conversion
 brew install packer
 brew install parallel # Shell command parallelization utility
 brew install peco # Simplistic interactive filtering tool
-brew install pgcli
+# brew install pgcli
 brew install php
-brew install pigz # Parallel gzip
+# brew install pigz # Parallel gzip
 # brew install pinentry-mac # pinentry is a small collection of dialog programs that allow GnuPG to read passphrases and PIN numbers in a secure manner.
 brew install pyenv
 brew install postgresql
@@ -89,12 +92,11 @@ brew install prettyping
 brew install procs # Modern replacement for ps written by Rust
 # brew install pv # Monitor data's progress through a pipe
 brew install ranger
-brew install rbenv
 # brew install readline
 # brew install reattach-to-user-namespace
 # brew install redis
 # ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.
-brew install ripgrep
+# brew install ripgrep # ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.
 brew install robotsandpencils/made/xcodes
 brew install scrcpy
 brew install shellcheck # Static analysis and lint tool, for (ba)sh scripts
@@ -110,9 +112,10 @@ brew install terraform
 brew install tfk8s # tfk8s is a tool that makes it easier to work with the Terraform Kubernetes Provider
 # brew install the_silver_searcher # Code-search similar to ack
 # brew install tmux
-brew install tokeii # statistics about your code
+# brew install tokeii # statistics about your code
 # Backup and migrate Kubernetes resources
 brew install velero
+brew install viddy # Modern watch command.
 brew install vim
 brew install watch
 brew install watchman

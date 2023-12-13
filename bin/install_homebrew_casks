@@ -9,7 +9,7 @@ brew install --cask balenaetcher
 brew install --cask beaker-browser
 # brew install --cask cleanshot
 # download audio and video from browser
-brew install --cask clipgrab
+brew install --cask clipgrab # download audio and video from browser
 brew install --cask discord
 brew install --cask docker
 brew install --cask dropbox
@@ -25,13 +25,13 @@ brew install --cask insomnia
 brew install --cask jetbrains-toolbox
 brew install --cask ksdiff
 # brew install --cask micro-snitch
-brew install --cask microsoft-teams
+# brew install --cask microsoft-teams
 # Silence embarrassing notifications while screensharing
-brew install --cask muzzle
+# brew install --cask muzzle # Silence embarrassing notifications while screensharing
 brew install --cask ngrok
 brew install --cask notion
 # Calculator and converter application
-brew install --cask numi
+# brew install --cask numi # Calculator and converter application
 brew install --cask owasp-zap
 brew install --cask path-finder
 # brew install --cask paw
@@ -47,15 +47,11 @@ brew install --cask spotify
 brew install --cask stoplight-studio
 brew install --cask switchhosts
 brew install --cask transmit
-brew install --cask viscosity
+# brew install --cask viscosity # VPN client
 brew install --cask visual-studio-code
-brew install --cask visualvm
-brew install --cask vlc
 brew install --cask whatsapp
 brew install --cask keeweb
 brew install --cask zoom
-# Open-source keystroke visualizer
-brew install --cask keycastr
-
+brew install --cask keycastr # Open-source keystroke visualizer
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
